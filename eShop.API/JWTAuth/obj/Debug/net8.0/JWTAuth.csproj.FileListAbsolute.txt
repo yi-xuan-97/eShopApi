@@ -1,0 +1,15 @@
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/bin/Debug/net8.0/JWTAuth.deps.json
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/bin/Debug/net8.0/JWTAuth.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/bin/Debug/net8.0/JWTAuth.pdb
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/JWTAuth.csproj.AssemblyReference.cache
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/JWTAuth.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/JWTAuth.AssemblyInfoInputs.cache
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/JWTAuth.AssemblyInfo.cs
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/JWTAuth.csproj.CoreCompileInputs.cache
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/JWTAuth.sourcelink.json
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/JWTAuth.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/refint/JWTAuth.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/JWTAuth.pdb
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/ref/JWTAuth.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/bin/Debug/net8.0/JWTAuth.runtimeconfig.json
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/Debug/net8.0/JWTAuth.genruntimeconfig.cache

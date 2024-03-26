@@ -1,0 +1,15 @@
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/bin/Debug/net8.0/Customer.ApplicationCore.deps.json
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/bin/Debug/net8.0/Customer.ApplicationCore.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/bin/Debug/net8.0/Customer.ApplicationCore.pdb
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/Customer.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/Customer.ApplicationCore.AssemblyInfoInputs.cache
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/Customer.ApplicationCore.AssemblyInfo.cs
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/Customer.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/Customer.ApplicationCore.sourcelink.json
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/Customer.ApplicationCore.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/refint/Customer.ApplicationCore.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/Customer.ApplicationCore.pdb
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/ref/Customer.ApplicationCore.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/Customer.ApplicationCore.csproj.AssemblyReference.cache
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/bin/Debug/net8.0/Customer.ApplicationCore.runtimeconfig.json
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/Debug/net8.0/Customer.ApplicationCore.genruntimeconfig.cache

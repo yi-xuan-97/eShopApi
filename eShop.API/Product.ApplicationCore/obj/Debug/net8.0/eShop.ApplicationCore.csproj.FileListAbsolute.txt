@@ -1,0 +1,15 @@
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/bin/Debug/net8.0/eShop.ApplicationCore.deps.json
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/bin/Debug/net8.0/eShop.ApplicationCore.runtimeconfig.json
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/bin/Debug/net8.0/eShop.ApplicationCore.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/bin/Debug/net8.0/eShop.ApplicationCore.pdb
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/eShop.ApplicationCore.csproj.AssemblyReference.cache
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/eShop.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/eShop.ApplicationCore.AssemblyInfoInputs.cache
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/eShop.ApplicationCore.AssemblyInfo.cs
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/eShop.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/eShop.ApplicationCore.sourcelink.json
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/eShop.ApplicationCore.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/refint/eShop.ApplicationCore.dll
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/eShop.ApplicationCore.pdb
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/eShop.ApplicationCore.genruntimeconfig.cache
+/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/eShop.ApplicationCore/obj/Debug/net8.0/ref/eShop.ApplicationCore.dll

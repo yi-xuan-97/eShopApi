@@ -1,0 +1,26 @@
+﻿services:
+  product.api:
+    image: product.api
+    build:
+      context: .
+      dockerfile: Product.API/Dockerfile
+
+  apigetwayservice:
+    image: apigetwayservice
+    build:
+      context: .
+      dockerfile: ApiGetwayService/Dockerfile
+    ports:
+      - '8002:80'
+
+  authentication.api:
+    image: authentication.api
+    build:
+      context: .
+      dockerfile: Authentication.API/Dockerfile
+
+  customer.api:
+    image: customer.api
+    build:
+      context: .
+      dockerfile: Customer.API/Dockerfile

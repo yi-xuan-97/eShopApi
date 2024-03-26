@@ -1,0 +1,40 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  apigetwayservice:
+    build:
+      context: "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API"
+      dockerfile: "ApiGetwayService/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ApiGetwayService.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "apigetwayservice:dev"
+    ports: []
+    volumes:
+    - "/Users/yixuanfeng/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/ApiGetwayService:/app:rw"
+    - "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API:/src:rw"
+    working_dir: "/app"
+  product.api:
+    build:
+      context: "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API"
+      dockerfile: "Product.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Product.API.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "product.api:dev"
+    ports: []
+    volumes:
+    - "/Users/yixuanfeng/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.API:/app:rw"
+    - "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API:/src:rw"
+    working_dir: "/app"
