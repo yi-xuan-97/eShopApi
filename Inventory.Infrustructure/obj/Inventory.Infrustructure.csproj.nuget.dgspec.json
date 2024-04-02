@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.Infrustructure/Inventory.Infrustructure.csproj": {}
+    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.Infrustructure/Inventory.Infrustructure.csproj": {}
   },
   "projects": {
-    "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj": {
+    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj",
+        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj",
         "projectName": "Inventory.ApplicationCore",
-        "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj",
+        "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj",
         "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-        "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.ApplicationCore/obj/",
+        "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"
@@ -77,14 +77,14 @@
         }
       }
     },
-    "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.Infrustructure/Inventory.Infrustructure.csproj": {
+    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.Infrustructure/Inventory.Infrustructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.Infrustructure/Inventory.Infrustructure.csproj",
+        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.Infrustructure/Inventory.Infrustructure.csproj",
         "projectName": "Inventory.Infrustructure",
-        "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.Infrustructure/Inventory.Infrustructure.csproj",
+        "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.Infrustructure/Inventory.Infrustructure.csproj",
         "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-        "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.Infrustructure/obj/",
+        "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.Infrustructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"
@@ -99,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj": {
-                "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj"
+              "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj": {
+                "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj"
               }
             }
           }

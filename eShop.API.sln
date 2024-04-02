@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.API", "Product.API\Product.API.csproj", "{BFED74AD-22FE-4FC7-84FC-DE065995E4CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product", "Product\Product.csproj", "{BFED74AD-22FE-4FC7-84FC-DE065995E4CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Infrastructure", "Product.Infrastructure\Product.Infrastructure.csproj", "{F6E78D5C-B5A3-441E-A2D8-E137673F0A88}"
 EndProject
@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderMicroservice", "OrderM
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductMicroservice", "ProductMicroservice", "{0B1D63DB-4440-4FB7-9DF9-95E1FC062E53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.API", "Order.API\Order.API.csproj", "{6739C5DC-45EA-42DD-BE12-508DC0F18A75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order", "Order\Order.csproj", "{6739C5DC-45EA-42DD-BE12-508DC0F18A75}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Infrustructure", "Order.Infrustructure\Order.Infrustructure.csproj", "{ABBE7831-2C44-4A6B-84E8-EFFB375BDF31}"
 EndProject
@@ -18,7 +18,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.ApplicationCore", "Or
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InventoryMicroservice", "InventoryMicroservice", "{02475F11-659B-422F-BD47-5522E8ABBFF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.API", "Inventory.API\Inventory.API.csproj", "{5781F2FF-AA3A-430A-97E7-B0BE84200A8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory", "Inventory\Inventory.csproj", "{5781F2FF-AA3A-430A-97E7-B0BE84200A8F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.ApplicationCore", "Inventory.ApplicationCore\Inventory.ApplicationCore.csproj", "{7685C58E-E181-4233-933A-AA2F841ED087}"
 EndProject
@@ -28,20 +28,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGetwayService", "ApiGetwayService\ApiGetwayService.csproj", "{6FBC57B4-96E7-47BB-8911-585E7642926E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E865A74A-0E3F-4B74-8C78-70EEA5FA4899}"
-	ProjectSection(SolutionItems) = preProject
-		docker-compose.yml = docker-compose.yml
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuth", "JWTAuth\JWTAuth.csproj", "{16E954D0-FF6C-4F33-96C6-CFEC131666F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthenticationMocroservice", "AuthenticationMocroservice", "{7E02E991-2DA3-47CD-8B2D-5F6EA951AC1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.API", "Authentication.API\Authentication.API.csproj", "{413D5F66-E521-4DB0-A217-75FF9BAC9463}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{413D5F66-E521-4DB0-A217-75FF9BAC9463}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerMicroservice", "CustomerMicroservice", "{076D526F-6353-4A2B-963C-DA8C02D6861B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.API", "Customer.API\Customer.API.csproj", "{ADE179FB-1941-4DB0-9D3F-5912578B6E11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer", "Customer\Customer.csproj", "{ADE179FB-1941-4DB0-9D3F-5912578B6E11}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.ApplicationCore", "Customer.ApplicationCore\Customer.ApplicationCore.csproj", "{217D70D4-81CD-4953-A849-D61B1E4B2A20}"
 EndProject
@@ -50,6 +45,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.ApplicationCore", "Authentication.ApplicationCore\Authentication.ApplicationCore.csproj", "{33F611A7-3E55-49BC-89E6-E09B24BA016A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Infrustructure", "Authentication.Infrustructure\Authentication.Infrustructure.csproj", "{828979DF-FA15-4EFB-891D-54F407BA7F6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8D983E0-1057-447F-AABB-D9203B438920}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prodduct.UnitTest", "Prodduct.UnitTest\Prodduct.UnitTest.csproj", "{1FB9B308-99CB-4B6A-A64B-DED8F77B404B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,10 @@ Global
 		{828979DF-FA15-4EFB-891D-54F407BA7F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{828979DF-FA15-4EFB-891D-54F407BA7F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{828979DF-FA15-4EFB-891D-54F407BA7F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB9B308-99CB-4B6A-A64B-DED8F77B404B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB9B308-99CB-4B6A-A64B-DED8F77B404B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB9B308-99CB-4B6A-A64B-DED8F77B404B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB9B308-99CB-4B6A-A64B-DED8F77B404B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BFED74AD-22FE-4FC7-84FC-DE065995E4CB} = {0B1D63DB-4440-4FB7-9DF9-95E1FC062E53}
@@ -143,5 +149,6 @@ Global
 		{B172334C-1126-49BE-81B8-90782BF82B27} = {076D526F-6353-4A2B-963C-DA8C02D6861B}
 		{33F611A7-3E55-49BC-89E6-E09B24BA016A} = {7E02E991-2DA3-47CD-8B2D-5F6EA951AC1C}
 		{828979DF-FA15-4EFB-891D-54F407BA7F6A} = {7E02E991-2DA3-47CD-8B2D-5F6EA951AC1C}
+		{1FB9B308-99CB-4B6A-A64B-DED8F77B404B} = {0B1D63DB-4440-4FB7-9DF9-95E1FC062E53}
 	EndGlobalSection
 EndGlobal

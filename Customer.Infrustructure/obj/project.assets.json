@@ -4074,11 +4074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Customer.Infrustructure/Customer.Infrustructure.csproj",
+      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.Infrustructure/Customer.Infrustructure.csproj",
       "projectName": "Customer.Infrustructure",
-      "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Customer.Infrustructure/Customer.Infrustructure.csproj",
+      "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.Infrustructure/Customer.Infrustructure.csproj",
       "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-      "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Customer.Infrustructure/obj/",
+      "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.Infrustructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"
@@ -4093,8 +4093,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/yixuanfeng/Documents/GitHub/eShopApi/Customer.ApplicationCore/Customer.ApplicationCore.csproj": {
-              "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Customer.ApplicationCore/Customer.ApplicationCore.csproj"
+            "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/Customer.ApplicationCore.csproj": {
+              "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/Customer.ApplicationCore.csproj"
             }
           }
         }

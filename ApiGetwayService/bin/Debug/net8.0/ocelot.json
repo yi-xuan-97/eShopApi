@@ -10,8 +10,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5049
+          "Host": "customer",
+          "Port": 8080
         }
       ],
       "DownstreamPathTemplate": "/api/customer",
@@ -35,8 +35,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "customer.api",
-          "Port": 80
+          "Host": "customer",
+          "Port": 8080
         }
       ],
       "DownstreamPathTemplate": "/api/customer/{id}"
@@ -51,8 +51,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5050
+          "Host": "product",
+          "Port": 80
         }
       ],
       "DownstreamPathTemplate": "/api/product"
@@ -66,7 +66,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "product.api",
+          "Host": "product",
           "Port": 80
         }
       ],
@@ -86,8 +86,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5050
+          "Host": "order",
+          "Port": 8080
         }
       ],
       "DownstreamPathTemplate": "/api/order"
@@ -102,14 +102,14 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "authentication.api",
-          "Port": 80
+          "Host": "authentication",
+          "Port": 8080
         }
       ],
       "DownstreamPathTemplate": "/api/Account"
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:8002"
+    "BaseUrl": "http://localhost:61000"
   }
 }

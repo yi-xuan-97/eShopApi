@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fVZ8Ic+d7+XOrEgouRFyZIPEdiBppLZQ7KZViG9EXSk3IG3iOqiShE6uuNz6NaS6PSViCbsSRCsXc2IVWKmqcQ==",
+  "dgSpecHash": "zipvaL6CK9iul079CZ2bgMIlZj853F23OhbJ4jswNf6ay+Pea2fv2adW8tqDQ6lzsTPTo+lAsAqdSWccijcDwQ==",
   "success": true,
-  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj",
+  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj",
   "expectedPackageFiles": [
     "/Users/yixuanfeng/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/yixuanfeng/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",

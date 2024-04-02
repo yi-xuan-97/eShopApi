@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wjatlsQ0ehNogRWzMYRwgbHeEjPTUSr//uuEEA5yRAifBsFbF4WJbm/2Vozr1dS/ElPGEbpY+IETu+Gjx4o1XA==",
+  "dgSpecHash": "33Dieb6z9+2jQfogzL6j9ZgrIMlwrX27X3khYWJjSlx24/2HH22Dh3M2pqLTFe1IORsigoK3MAx6PwC8rV0gFQ==",
   "success": true,
-  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/JWTAuth.csproj",
+  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/JWTAuth.csproj",
   "expectedPackageFiles": [
     "/Users/yixuanfeng/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/yixuanfeng/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
