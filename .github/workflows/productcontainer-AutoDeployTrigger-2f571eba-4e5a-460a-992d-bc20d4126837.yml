@@ -29,7 +29,7 @@ jobs:
       - name: Build and push container image to registry
         uses: azure/container-apps-deploy-action@v2
         with:
-          appSourcePath: ${{ github.workspace }}/Product 
+          appSourcePath: ${{ github.workspace }} 
           registryUrl: eshopantra.azurecr.io
           registryUsername: ${{ secrets.PRODUCTCONTAINER_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.PRODUCTCONTAINER_REGISTRY_PASSWORD }}
@@ -37,7 +37,7 @@ jobs:
           resourceGroup: eShopContainer
           imageToBuild: eshopantra.azurecr.io/productcontainer:${{ github.sha }}
           dockerfilePath: Product/Dockerfile
-            
+          
 
      
 
