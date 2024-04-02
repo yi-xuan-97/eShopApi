@@ -36,7 +36,7 @@ jobs:
           containerAppName: productcontainer
           resourceGroup: eShopContainer
           imageToBuild: eshopantra.azurecr.io/productcontainer:${{ github.sha }}
-          
+          dockerfilePath: Product/Dockerfile
             
 
      

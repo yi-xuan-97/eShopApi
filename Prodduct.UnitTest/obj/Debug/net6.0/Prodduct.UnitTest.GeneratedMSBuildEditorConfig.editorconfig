@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Prodduct.UnitTest
-build_property.ProjectDir = /Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Prodduct.UnitTest/
+build_property.ProjectDir = /Users/yixuanfeng/Documents/GitHub/eShopApi/Prodduct.UnitTest/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
