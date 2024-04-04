@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C6otMr7JJgaAwB4P2Ho8iPErQ2jtCMalcaWyr8pI0NTnCKJwPcffGslsw2ip2RDh/f8ZE5tOvUWU6NDDU3vXJQ==",
+  "dgSpecHash": "N+UHsLA9mTlGsaSPHo54RWNltyzI//oU6EHxkzwjA884ryOjS/OKE1YA2rsv9tWNMHtIYos8O+hsof1inDqDNA==",
   "success": true,
-  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/ApiGetwayService/ApiGetwayService.csproj",
+  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/ApiGetwayService/ApiGetwayService.csproj",
   "expectedPackageFiles": [
     "/Users/yixuanfeng/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/yixuanfeng/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",

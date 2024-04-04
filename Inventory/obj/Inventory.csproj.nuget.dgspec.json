@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory/Inventory.csproj": {}
+    "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory/Inventory.csproj": {}
   },
   "projects": {
-    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory/Inventory.csproj": {
+    "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory/Inventory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory/Inventory.csproj",
+        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory/Inventory.csproj",
         "projectName": "Inventory",
-        "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory/Inventory.csproj",
+        "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory/Inventory.csproj",
         "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-        "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory/obj/",
+        "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"

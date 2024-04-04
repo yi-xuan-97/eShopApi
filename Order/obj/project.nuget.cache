@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oyxtp7irvzX3ag4UZH9l1KeVMqcn9WSpOqe1NcMhnZ+FAy0l+wlJkyfcZF8h1JnjrCzx5iceGkKopm/ivRDViA==",
+  "dgSpecHash": "ftGRLAVsU1hZilh1EgOX72g2GXU8aNagFJW/vVKaToM8DnaRzUT7aHOj42hcoLmzoEBdiBq2xwqcsQHjPKo1sw==",
   "success": true,
-  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order/Order.csproj",
+  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order/Order.csproj",
   "expectedPackageFiles": [
     "/Users/yixuanfeng/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/yixuanfeng/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",

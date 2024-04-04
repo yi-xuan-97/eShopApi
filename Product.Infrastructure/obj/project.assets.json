@@ -2071,11 +2071,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.Infrastructure/Product.Infrastructure.csproj",
+      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.Infrastructure/Product.Infrastructure.csproj",
       "projectName": "Product.Infrastructure",
-      "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.Infrastructure/Product.Infrastructure.csproj",
+      "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.Infrastructure/Product.Infrastructure.csproj",
       "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-      "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.Infrastructure/obj/",
+      "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"
@@ -2090,8 +2090,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.ApplicationCore/Product.ApplicationCore.csproj": {
-              "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.ApplicationCore/Product.ApplicationCore.csproj"
+            "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.ApplicationCore/Product.ApplicationCore.csproj": {
+              "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.ApplicationCore/Product.ApplicationCore.csproj"
             }
           }
         }

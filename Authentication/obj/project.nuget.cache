@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z++iHG36Ez9v12otBR17woGeZnfjRA2dZQbXOBs0nuaXWWSKiZasOp/xE8kwcPBM0a9msrQsqeS7BuVqCOlZMA==",
+  "dgSpecHash": "WCyC8s3S74EqX3zzH4TyUnTds8rAfqVq/5p+ubr0y+8qTevWPKApQlWlYumLEfLRRLSnwaAwdkbxe9rctHEUIA==",
   "success": true,
-  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Authentication/Authentication.csproj",
+  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Authentication/Authentication.csproj",
   "expectedPackageFiles": [
     "/Users/yixuanfeng/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/yixuanfeng/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",

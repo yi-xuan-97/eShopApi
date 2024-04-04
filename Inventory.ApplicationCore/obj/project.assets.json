@@ -4053,11 +4053,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj",
+      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj",
       "projectName": "Inventory.ApplicationCore",
-      "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj",
+      "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.ApplicationCore/Inventory.ApplicationCore.csproj",
       "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-      "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Inventory.ApplicationCore/obj/",
+      "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory.ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"

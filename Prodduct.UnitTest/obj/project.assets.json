@@ -5968,11 +5968,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Prodduct.UnitTest/Prodduct.UnitTest.csproj",
+      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Prodduct.UnitTest/Prodduct.UnitTest.csproj",
       "projectName": "Prodduct.UnitTest",
-      "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Prodduct.UnitTest/Prodduct.UnitTest.csproj",
+      "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Prodduct.UnitTest/Prodduct.UnitTest.csproj",
       "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-      "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Prodduct.UnitTest/obj/",
+      "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Prodduct.UnitTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"
@@ -5987,11 +5987,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.ApplicationCore/Product.ApplicationCore.csproj": {
-              "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.ApplicationCore/Product.ApplicationCore.csproj"
+            "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.ApplicationCore/Product.ApplicationCore.csproj": {
+              "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.ApplicationCore/Product.ApplicationCore.csproj"
             },
-            "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.Infrastructure/Product.Infrastructure.csproj": {
-              "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.Infrastructure/Product.Infrastructure.csproj"
+            "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.Infrastructure/Product.Infrastructure.csproj": {
+              "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.Infrastructure/Product.Infrastructure.csproj"
             }
           }
         }

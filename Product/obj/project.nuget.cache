@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rt2iIbz5fp5Fq4oOzQHW3fXsBbyt+jont3L+GWSwK2ZjLLhifghv3B0+leAsbUSKq3gpMlyoWBjmi9CQUnlKtA==",
+  "dgSpecHash": "VnG9bkNL4fGFGaANlGqzjmiHf5Bfu28V1pd0u7kGq/OsV3mz8Pa/sU4dnD0ffSaAgq0We3CV7eRl99T8o4H4pg==",
   "success": true,
-  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product/Product.csproj",
+  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product/Product.csproj",
   "expectedPackageFiles": [
     "/Users/yixuanfeng/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/yixuanfeng/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",

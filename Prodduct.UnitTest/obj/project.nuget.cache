@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GQPvNrRk/v7GiKB58G/zZghYR2nWkivq6ixJIn8yCnlpn/spQmB7VUg+FlkZ6Cw40SrlXpdNG/2yWojgJDVMmQ==",
+  "dgSpecHash": "MoUf6Hpjv1l8hh8QJDNA2Ve9zHgqa99LbxvgLMIS/UrNlE+/Ax6AhnLNzBJFtneCDfdleLYfQT9GVwfDwISEtQ==",
   "success": true,
-  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Prodduct.UnitTest/Prodduct.UnitTest.csproj",
+  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Prodduct.UnitTest/Prodduct.UnitTest.csproj",
   "expectedPackageFiles": [
     "/Users/yixuanfeng/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/yixuanfeng/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",

@@ -3790,11 +3790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/JWTAuth.csproj",
+      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/JWTAuth.csproj",
       "projectName": "JWTAuth",
-      "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/JWTAuth.csproj",
+      "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/JWTAuth.csproj",
       "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-      "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/",
+      "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"

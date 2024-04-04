@@ -4053,11 +4053,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/Customer.ApplicationCore.csproj",
+      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Customer.ApplicationCore/Customer.ApplicationCore.csproj",
       "projectName": "Customer.ApplicationCore",
-      "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/Customer.ApplicationCore.csproj",
+      "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Customer.ApplicationCore/Customer.ApplicationCore.csproj",
       "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-      "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Customer.ApplicationCore/obj/",
+      "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Customer.ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"

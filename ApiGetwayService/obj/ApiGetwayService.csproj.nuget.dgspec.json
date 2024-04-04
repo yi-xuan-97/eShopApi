@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/ApiGetwayService/ApiGetwayService.csproj": {}
+    "/Users/yixuanfeng/Documents/GitHub/eShopApi/ApiGetwayService/ApiGetwayService.csproj": {}
   },
   "projects": {
-    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/ApiGetwayService/ApiGetwayService.csproj": {
+    "/Users/yixuanfeng/Documents/GitHub/eShopApi/ApiGetwayService/ApiGetwayService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/ApiGetwayService/ApiGetwayService.csproj",
+        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/ApiGetwayService/ApiGetwayService.csproj",
         "projectName": "ApiGetwayService",
-        "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/ApiGetwayService/ApiGetwayService.csproj",
+        "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/ApiGetwayService/ApiGetwayService.csproj",
         "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-        "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/ApiGetwayService/obj/",
+        "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/ApiGetwayService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/JWTAuth.csproj": {
-                "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/JWTAuth.csproj"
+              "/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/JWTAuth.csproj": {
+                "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/JWTAuth.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/JWTAuth.csproj": {
+    "/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/JWTAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/JWTAuth.csproj",
+        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/JWTAuth.csproj",
         "projectName": "JWTAuth",
-        "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/JWTAuth.csproj",
+        "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/JWTAuth.csproj",
         "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-        "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/JWTAuth/obj/",
+        "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QNRAJ/fA2TJvlb8PlsmBsXEHLxbgrs1tJrunsEYZWXhSR5BRGQgBlAtdx+/X+YeUYnzZXIPif1t8vADauhfbng==",
+  "dgSpecHash": "31ChdlNuHCw4NKPAf/fuAc0jP8WSf9mnVopaKgporucFL/OqvNHH25b1+6dthtSpJWxGZDwZQdGM3fzNCJQqXA==",
   "success": true,
-  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Authentication.ApplicationCore/Authentication.ApplicationCore.csproj",
+  "projectFilePath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Authentication.ApplicationCore/Authentication.ApplicationCore.csproj",
   "expectedPackageFiles": [
     "/Users/yixuanfeng/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/yixuanfeng/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

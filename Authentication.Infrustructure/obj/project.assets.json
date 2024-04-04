@@ -2034,11 +2034,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Authentication.Infrustructure/Authentication.Infrustructure.csproj",
+      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Authentication.Infrustructure/Authentication.Infrustructure.csproj",
       "projectName": "Authentication.Infrustructure",
-      "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Authentication.Infrustructure/Authentication.Infrustructure.csproj",
+      "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Authentication.Infrustructure/Authentication.Infrustructure.csproj",
       "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-      "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Authentication.Infrustructure/obj/",
+      "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Authentication.Infrustructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"

@@ -2050,11 +2050,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.ApplicationCore/Product.ApplicationCore.csproj",
+      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.ApplicationCore/Product.ApplicationCore.csproj",
       "projectName": "Product.ApplicationCore",
-      "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.ApplicationCore/Product.ApplicationCore.csproj",
+      "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.ApplicationCore/Product.ApplicationCore.csproj",
       "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-      "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Product.ApplicationCore/obj/",
+      "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product.ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"

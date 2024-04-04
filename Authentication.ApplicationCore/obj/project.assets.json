@@ -2034,11 +2034,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Authentication.ApplicationCore/Authentication.ApplicationCore.csproj",
+      "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Authentication.ApplicationCore/Authentication.ApplicationCore.csproj",
       "projectName": "Authentication.ApplicationCore",
-      "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Authentication.ApplicationCore/Authentication.ApplicationCore.csproj",
+      "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Authentication.ApplicationCore/Authentication.ApplicationCore.csproj",
       "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-      "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Authentication.ApplicationCore/obj/",
+      "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Authentication.ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"

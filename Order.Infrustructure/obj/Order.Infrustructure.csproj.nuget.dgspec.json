@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.Infrustructure/Order.Infrustructure.csproj": {}
+    "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.Infrustructure/Order.Infrustructure.csproj": {}
   },
   "projects": {
-    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.ApplicationCore/Order.ApplicationCore.csproj": {
+    "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.ApplicationCore/Order.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.ApplicationCore/Order.ApplicationCore.csproj",
+        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.ApplicationCore/Order.ApplicationCore.csproj",
         "projectName": "Order.ApplicationCore",
-        "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.ApplicationCore/Order.ApplicationCore.csproj",
+        "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.ApplicationCore/Order.ApplicationCore.csproj",
         "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-        "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.ApplicationCore/obj/",
+        "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"
@@ -77,14 +77,14 @@
         }
       }
     },
-    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.Infrustructure/Order.Infrustructure.csproj": {
+    "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.Infrustructure/Order.Infrustructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.Infrustructure/Order.Infrustructure.csproj",
+        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.Infrustructure/Order.Infrustructure.csproj",
         "projectName": "Order.Infrustructure",
-        "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.Infrustructure/Order.Infrustructure.csproj",
+        "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.Infrustructure/Order.Infrustructure.csproj",
         "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-        "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.Infrustructure/obj/",
+        "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.Infrustructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"
@@ -99,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.ApplicationCore/Order.ApplicationCore.csproj": {
-                "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop.API/Order.ApplicationCore/Order.ApplicationCore.csproj"
+              "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.ApplicationCore/Order.ApplicationCore.csproj": {
+                "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order.ApplicationCore/Order.ApplicationCore.csproj"
               }
             }
           }

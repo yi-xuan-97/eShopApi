@@ -48,6 +48,14 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+var AngularUrl = Environment.GetEnvironmentVariable("angularURL");
+
+app.UseCors(policy =>
+{
+    policy.WithOrigins(AngularUrl).AllowAnyMethod().AllowAnyHeader().AllowCredentials();
+});
+
+
 app.MapControllers();
 
 app.Run();
