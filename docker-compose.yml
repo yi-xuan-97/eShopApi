@@ -1,10 +1,5 @@
 ﻿services:
-  authentication:
-    image: authentication
-    build:
-      context: .
-      dockerfile: Authentication/Dockerfile
-
+  
   apigetwayservice:
     image: apigetwayservice
     build:
@@ -37,3 +32,8 @@
       context: .
       dockerfile: Inventory/Dockerfile
 
+  authentication:
+    image: authentication
+    build:
+      context: .
+      dockerfile: Authentication/Dockerfile

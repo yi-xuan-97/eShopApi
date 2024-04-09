@@ -1,6 +1,6 @@
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Http.HttpResults;
+// using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
@@ -19,7 +19,7 @@ public static class CustomJWTAuthExtension
         {
             o.RequireHttpsMetadata = false;
             o.SaveToken = true;
-            o.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+            o.TokenValidationParameters = new TokenValidationParameters
             {
                 ValidateIssuerSigningKey = true,
                 ValidateIssuer = false,

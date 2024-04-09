@@ -6,7 +6,7 @@ namespace Customer.API.Controller;
 
 [Route("api/[controller]")]
 [ApiController]
-// [Authorize(Roles = "Admin")]
+[Authorize]
 public class CustomerController : ControllerBase
 {
     private readonly ICustomerRepositoryAsync _customerRepositoryAsync;
@@ -17,12 +17,14 @@ public class CustomerController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> GetAllCustomer()
     {
         return Ok(await _customerRepositoryAsync.GetAllAsync());
     }
 
     [HttpPost]
+    [Authorize(Roles = "Admin, User")]
     public async Task<IActionResult> AddCustomer(ApplicationCore.Entity.Customer obj)
     {
         try
@@ -35,5 +37,20 @@ public class CustomerController : ControllerBase
             return BadRequest(ex.Message);
         }
 
+    }
+
+    [HttpDelete]
+    [Authorize(Roles = "Admin")]
+    public async Task<IActionResult> DeleteCustomer(int i)
+    {
+        try
+        {
+            var result = await _customerRepositoryAsync.DeleteAsync(i);
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 }

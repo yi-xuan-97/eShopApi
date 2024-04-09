@@ -1,5 +1,5 @@
 using System.IdentityModel.Tokens.Jwt;
-using System.Runtime.InteropServices.JavaScript;
+// using System.Runtime.InteropServices.JavaScript;
 using System.Security.Claims;
 using System.Text;
 using JWTAuth.Model;
@@ -31,10 +31,9 @@ public class JwtTokenHandler
                 return null;
             var tokenKey = Encoding.ASCII.GetBytes(JWT_SECURITY_KEY);
             var tokenExpireTimeStamp = DateTime.Now.AddMinutes(JWT_TOKEN_VALIDITY_MINS);
-            var claimsIdentity = new ClaimsIdentity(new List<Claim> {
-            new Claim(JwtRegisteredClaimNames.Name, user.Username),
-            new Claim("Role",user.Role)
-
+            var claimsIdentity = new ClaimsIdentity(new List<Claim> { 
+                new Claim(JwtRegisteredClaimNames.Name, user.Username), 
+                new Claim(ClaimTypes.Role,user.Role)
             });
 
             var signingCredentials = new SigningCredentials(

@@ -51,7 +51,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prodduct.UnitTest", "Prodduct.UnitTest\Prodduct.UnitTest.csproj", "{1FB9B308-99CB-4B6A-A64B-DED8F77B404B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.UnitTest", "Product.UnitTest\Product.UnitTest.csproj", "{1FB9B308-99CB-4B6A-A64B-DED8F77B404B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -150,5 +150,6 @@ Global
 		{33F611A7-3E55-49BC-89E6-E09B24BA016A} = {7E02E991-2DA3-47CD-8B2D-5F6EA951AC1C}
 		{828979DF-FA15-4EFB-891D-54F407BA7F6A} = {7E02E991-2DA3-47CD-8B2D-5F6EA951AC1C}
 		{1FB9B308-99CB-4B6A-A64B-DED8F77B404B} = {0B1D63DB-4440-4FB7-9DF9-95E1FC062E53}
+		{16E954D0-FF6C-4F33-96C6-CFEC131666F7} = {7E02E991-2DA3-47CD-8B2D-5F6EA951AC1C}
 	EndGlobalSection
 EndGlobal

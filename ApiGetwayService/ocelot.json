@@ -11,7 +11,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "customer",
-          "Port": 8080
+          "Port": 80
         }
       ],
       "DownstreamPathTemplate": "/api/customer",
@@ -20,9 +20,13 @@
         "EnableRateLimiting": true,
         "Period": "1m",
         "PeriodTimespan": 60,
-        "Limit": 1
+        "Limit": 10
       },
-      "RouteClaimsRequirement": {
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement `": {
         "Role": "Admin"
       }
     },
@@ -36,7 +40,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "customer",
-          "Port": 8080
+          "Port": 80
         }
       ],
       "DownstreamPathTemplate": "/api/customer/{id}"
@@ -103,7 +107,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "authentication",
-          "Port": 8080
+          "Port": 80
         }
       ],
       "DownstreamPathTemplate": "/api/Account"

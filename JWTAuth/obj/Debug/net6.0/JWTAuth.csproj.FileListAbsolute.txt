@@ -1,0 +1,15 @@
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/bin/Debug/net6.0/JWTAuth.deps.json
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/bin/Debug/net6.0/JWTAuth.runtimeconfig.json
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/bin/Debug/net6.0/JWTAuth.dll
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/bin/Debug/net6.0/JWTAuth.pdb
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/JWTAuth.csproj.AssemblyReference.cache
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/JWTAuth.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/JWTAuth.AssemblyInfoInputs.cache
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/JWTAuth.AssemblyInfo.cs
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/JWTAuth.csproj.CoreCompileInputs.cache
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/JWTAuth.sourcelink.json
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/JWTAuth.dll
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/refint/JWTAuth.dll
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/JWTAuth.pdb
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/JWTAuth.genruntimeconfig.cache
+/Users/yixuanfeng/Documents/GitHub/eShopApi/JWTAuth/obj/Debug/net6.0/ref/JWTAuth.dll

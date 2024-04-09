@@ -1,0 +1,116 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  apigetwayservice:
+    build:
+      context: "/Users/yixuanfeng/Documents/GitHub/eShopApi"
+      dockerfile: "ApiGetwayService/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ApiGetwayService.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "apigetwayservice:dev"
+    ports: []
+    volumes:
+    - "/Users/yixuanfeng/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi/ApiGetwayService:/app:rw"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi:/src:rw"
+    working_dir: "/app"
+  authentication:
+    build:
+      context: "/Users/yixuanfeng/Documents/GitHub/eShopApi"
+      dockerfile: "Authentication/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net6.0/Authentication.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "authentication:dev"
+    ports: []
+    volumes:
+    - "/Users/yixuanfeng/.nuget/packages:/root/.nuget/packages"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi/Authentication:/app:rw"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi:/src:rw"
+    working_dir: "/app"
+  customer:
+    build:
+      context: "/Users/yixuanfeng/Documents/GitHub/eShopApi"
+      dockerfile: "Customer/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net6.0/Customer.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "customer:dev"
+    ports: []
+    volumes:
+    - "/Users/yixuanfeng/.nuget/packages:/root/.nuget/packages"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi/Customer:/app:rw"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi:/src:rw"
+    working_dir: "/app"
+  inventory:
+    build:
+      context: "/Users/yixuanfeng/Documents/GitHub/eShopApi"
+      dockerfile: "Inventory/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Inventory.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "inventory:dev"
+    ports: []
+    volumes:
+    - "/Users/yixuanfeng/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi/Inventory:/app:rw"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi:/src:rw"
+    working_dir: "/app"
+  order:
+    build:
+      context: "/Users/yixuanfeng/Documents/GitHub/eShopApi"
+      dockerfile: "Order/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Order.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "order:dev"
+    ports: []
+    volumes:
+    - "/Users/yixuanfeng/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order:/app:rw"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi:/src:rw"
+    working_dir: "/app"
+  product:
+    build:
+      context: "/Users/yixuanfeng/Documents/GitHub/eShopApi"
+      dockerfile: "Product/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net6.0/Product.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "product:dev"
+    ports: []
+    volumes:
+    - "/Users/yixuanfeng/.nuget/packages:/root/.nuget/packages"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi/Product:/app:rw"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopApi:/src:rw"
+    working_dir: "/app"
