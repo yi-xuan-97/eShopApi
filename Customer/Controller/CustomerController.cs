@@ -6,7 +6,7 @@ namespace Customer.API.Controller;
 
 [Route("api/[controller]")]
 [ApiController]
-[Authorize]
+// [Authorize]
 public class CustomerController : ControllerBase
 {
     private readonly ICustomerRepositoryAsync _customerRepositoryAsync;
@@ -24,7 +24,6 @@ public class CustomerController : ControllerBase
     }
 
     [HttpPost]
-    [Authorize(Roles = "Admin, User")]
     public async Task<IActionResult> AddCustomer(ApplicationCore.Entity.Customer obj)
     {
         try

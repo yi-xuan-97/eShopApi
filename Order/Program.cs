@@ -20,6 +20,7 @@ builder.Services.AddHttpClient();
 //     option.UseSqlServer(builder.Configuration.GetConnectionString("eShopDbConnection"));
 // });
 
+
 builder.Services.AddDbContext<eShopDbContext>(option =>
 {
     option.UseSqlServer(Environment.GetEnvironmentVariable("eShopDb"));
@@ -32,11 +33,14 @@ builder.Services.AddAutoMapper(typeof(Program));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// if (app.Environment.IsDevelopment())
+// {
+//     app.UseSwagger();
+//     app.UseSwaggerUI();
+// }
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 

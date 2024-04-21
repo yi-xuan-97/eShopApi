@@ -84,14 +84,14 @@ services:
     command: []
     entrypoint:
     - "dotnet"
-    - "/app/bin/Debug/net8.0/Order.dll"
+    - "/app/bin/Debug/net6.0/Order.dll"
     environment:
       ASPNETCORE_ENVIRONMENT: "Development"
       DOTNET_USE_POLLING_FILE_WATCHER: "true"
     image: "order:dev"
     ports: []
     volumes:
-    - "/Users/yixuanfeng/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/yixuanfeng/.nuget/packages:/root/.nuget/packages"
     - "/Users/yixuanfeng/Documents/GitHub/eShopApi/Order:/app:rw"
     - "/Users/yixuanfeng/Documents/GitHub/eShopApi:/src:rw"
     working_dir: "/app"

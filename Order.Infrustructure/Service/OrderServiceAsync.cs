@@ -35,10 +35,12 @@ public class OrderServiceAsync : IOrderServiceAsync
     {
         Orders o = new Orders()
         {
-            CustomerId = r.CustomerId,
             ProductId = r.ProductId,
-            ShipperId = r.ShipperId,
+            ProductName = r.ProductName,
+            CustomerName = r.CustomerName,
             OrderDate = r.OrderDate,
+            Amount = r.Amount,
+            Price = r.Price,
             TotalPrice = r.TotalPrice
         };
         return await _orderRepositoryAsync.InsertAsync(o);
@@ -49,10 +51,11 @@ public class OrderServiceAsync : IOrderServiceAsync
         var allproduct = await _orderRepositoryAsync.GetAllAsync();
         return allproduct.Count();
     }
+    
 
-    public async Task<IEnumerable<OrderResponseModel>> GetOrderByCustomerId(int id)
+    public async Task<IEnumerable<OrderResponseModel>> GetOrderByCustomer(string name)
     {
-        var result = await _orderRepositoryAsync.Filter(x => x.CustomerId == id);
+        var result = await _orderRepositoryAsync.Filter(x => x.CustomerName == name);
         List<OrderResponseModel> lst = new List<OrderResponseModel>();
         foreach (Orders o in result)
         {

@@ -1,5 +1,5 @@
 using AutoMapper;
-using Microsoft.AspNetCore.Http.HttpResults;
+// using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Order.API.Helper;
 using Order.ApplicationCore.Entity;
@@ -19,13 +19,14 @@ public class OrderController : ControllerBase
     private readonly IOrderServiceAsync _orderServiceAsync;
     private IMapper _mapper;
 
-    public OrderController(IOrderServiceAsync repo)
+    public OrderController(IOrderServiceAsync repo, IMapper mapper)
     {
         _orderServiceAsync = repo;
         _notification = new Notification();
+        _mapper = mapper;
     }
     
-    [HttpPost("{message}")]
+    [HttpPost(template: "bymessage/{message}")]
     public IActionResult CreateOrder(string message)
     {
         _notification.AddMessageToQueue(message);
@@ -38,13 +39,13 @@ public class OrderController : ControllerBase
         return Ok(await _orderServiceAsync.GetAllOrder());
     }
 
-    [HttpGet("{CustomerId}")]
-    public async Task<IActionResult> GetOrderByCustomerId(int id)
+    [HttpGet(template: "bycustomer/{CustomerName}")]
+    public async Task<IActionResult> GetOrderByCustomerId(string CustomerName)
     {
-        return Ok(await _orderServiceAsync.GetOrderByCustomerId(id));
+        return Ok(await _orderServiceAsync.GetOrderByCustomer(CustomerName));
     }
 
-    [HttpGet("{id}")]
+    [HttpGet(template: "byid/{id}")]
     public async Task<IActionResult> GetProductById(int id)
     {
         return Ok(await _orderServiceAsync.GetOrderById(id));
@@ -52,7 +53,7 @@ public class OrderController : ControllerBase
 
 
     [HttpPost]
-    public async Task<IActionResult> AddProduct(Orders obj)
+    public async Task<IActionResult> AddOrder(Orders obj)
     {
         return Ok(await _orderServiceAsync.AddNewOrder(_mapper.Map<OrderRequestModel>(obj)));
     }

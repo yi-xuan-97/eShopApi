@@ -21,13 +21,6 @@
         "Period": "1m",
         "PeriodTimespan": 60,
         "Limit": 10
-      },
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer",
-        "AllowedScopes": []
-      },
-      "RouteClaimsRequirement `": {
-        "Role": "Admin"
       }
     },
     {
@@ -91,7 +84,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "order",
-          "Port": 8080
+          "Port": 80
         }
       ],
       "DownstreamPathTemplate": "/api/order"

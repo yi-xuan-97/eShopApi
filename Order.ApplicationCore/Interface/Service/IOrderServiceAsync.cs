@@ -8,7 +8,7 @@ public interface IOrderServiceAsync
     Task<IEnumerable<OrderResponseModel>> GetAllOrder();
     Task<int> AddNewOrder(OrderRequestModel r);
     Task<int> GetOrderCountAsync();
-    Task<IEnumerable<OrderResponseModel>> GetOrderByCustomerId(int id);
+    Task<IEnumerable<OrderResponseModel>> GetOrderByCustomer(string name);
     Task<int> DeleteOrderById(int id);
     Task<OrderResponseModel> GetOrderById(int id);
 }

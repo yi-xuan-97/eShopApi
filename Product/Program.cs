@@ -23,7 +23,9 @@ builder.Services.AddHttpClient();
 
 builder.Services.AddDbContext<eShopDbContext>(option =>
 {
-    option.UseSqlServer(Environment.GetEnvironmentVariable("eShopDb"));
+    // option.UseSqlServer(Environment.GetEnvironmentVariable("eShopDb"));
+    option.UseSqlServer(
+        "Server=tcp:yfeng.database.windows.net,1433;Initial Catalog=eShopDb;Persist Security Info=False;User ID=yfeng;Password=NewStrongPassword456;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
 });
 
 builder.Services.AddScoped<IProductRepositoryAsync, ProductRepositoryAsync>();
